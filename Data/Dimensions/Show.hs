@@ -16,7 +16,7 @@
 -- units.
 -----------------------------------------------------------------------------
 
-module Data.Dimensions.Show () where
+module Data.Dimensions.Show (ShowDimSpec, showDimSpec) where
 
 import Data.Proxy (Proxy(..))
 import Data.List
